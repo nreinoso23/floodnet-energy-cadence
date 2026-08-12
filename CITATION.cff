@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it as below."
+title: "Powering FloodNet: Optimizing Sensor Reporting for Battery Life"
+type: software
+authors:
+  - family-names: Reinoso
+    given-names: Nicholas
+    orcid: "https://orcid.org/0009-0009-0689-8011"
+    affiliation: "Undergraduate Summer Research Program, NYU Tandon School of Engineering"
+  - family-names: Mydlarz
+    given-names: Charlie
+    affiliation: "Center for Urban Science and Progress, NYU Tandon"
+  - family-names: Silverman
+    given-names: Andrea I.
+    affiliation: "Center for Urban Science and Progress, NYU Tandon; Department of Civil and Urban Engineering, NYU Tandon"
+date-released: 2026-08-12

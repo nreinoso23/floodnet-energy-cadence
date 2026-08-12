@@ -1,0 +1,36 @@
+{
+  "attribution": "Weather data by Open-Meteo.com",
+  "bytes": 296045,
+  "daily_boundary_safe": true,
+  "endpoint": "https://archive-api.open-meteo.com/v1/archive",
+  "first_hour": "2025-07-01T00:00",
+  "hours": 8784,
+  "last_hour": "2026-07-01T23:00",
+  "licence": "CC BY 4.0, https://open-meteo.com/en/licence",
+  "notes": [
+    "Returned lat/lon is the selected model's grid-cell centre, not the requested point. Cite the returned values.",
+    "If models was not pinned, best_match chose and the model name is unknown. Do not credit ERA5 or Copernicus without pinning.",
+    "Hourly timestamps have been observed to shift between otherwise identical requests. Join on physical UTC, not clock text. Daily sums are safe when daily_boundary_safe is true."
+  ],
+  "requested": {
+    "end_date": "2026-07-01",
+    "hourly": "shortwave_radiation,temperature_2m,precipitation",
+    "latitude": 40.7381,
+    "longitude": -74.0425,
+    "models": "best_match (default, not pinned)",
+    "start_date": "2025-07-01",
+    "timezone": "America/New_York"
+  },
+  "retrieved_at_utc": "2026-08-08T22:45:30+00:00",
+  "returned": {
+    "elevation": 2.0,
+    "latitude": 40.738136,
+    "longitude": -74.04254,
+    "timezone": "America/New_York",
+    "timezone_abbreviation": "GMT-4",
+    "utc_offset_seconds": -14400
+  },
+  "schema": "openmeteo_pull_v1",
+  "sha256": "7bbcb62da82d591069d8bcd07626fe8dc6a43baba348ffdaee179ba94d4baf5e",
+  "url": "https://archive-api.open-meteo.com/v1/archive?latitude=40.7381&longitude=-74.0425&start_date=2025-07-01&end_date=2026-07-01&hourly=shortwave_radiation%2Ctemperature_2m%2Cprecipitation&timezone=America%2FNew_York"
+}

@@ -1,0 +1,315 @@
+[
+ {
+  "project": "1_min_data",
+  "recording_index": 1,
+  "recording_id": "f90f5d9b-8bfa-4740-9120-501ae6c1ed17",
+  "start_utc": "2026-08-01T01:05:22+00:00",
+  "start_local_NY": "2026-07-31T21:05:22-04:00",
+  "channels": [
+   "mc",
+   "mv",
+   "vb"
+  ],
+  "uart_log": false,
+  "mc": {
+   "samples": 61528,
+   "duration_s": 15.382,
+   "mean_ma": 0.005983112843568535,
+   "min_ma": -0.3229999856557697,
+   "max_ma": 5.129000172019005
+  }
+ },
+ {
+  "project": "1_min_data",
+  "recording_index": 2,
+  "recording_id": "a85ca293-7ccb-48fc-804d-d122877e8937",
+  "start_utc": "2026-08-01T01:09:50+00:00",
+  "start_local_NY": "2026-07-31T21:09:50-04:00",
+  "channels": [
+   "mc",
+   "mv",
+   "vb"
+  ],
+  "uart_log": false,
+  "mc": {
+   "samples": 904080016,
+   "duration_s": 226020.004,
+   "mean_ma": 2.829884121808319,
+   "min_ma": -4.701000172644854,
+   "max_ma": 153.07900309562683
+  }
+ },
+ {
+  "project": "15_min_data",
+  "recording_index": 1,
+  "recording_id": "4191e55f-0d18-4c27-b0d1-09e2ea15ca99",
+  "start_utc": "2026-08-04T14:09:14+00:00",
+  "start_local_NY": "2026-08-04T10:09:14-04:00",
+  "channels": [
+   "mc",
+   "mp",
+   "mv",
+   "vb"
+  ],
+  "uart_log": false,
+  "mc": {
+   "samples": 82824,
+   "duration_s": 20.706,
+   "mean_ma": 0.0011740105470881123,
+   "min_ma": 0.00042599998550940654,
+   "max_ma": 0.001964999910342158
+  }
+ },
+ {
+  "project": "15_min_data",
+  "recording_index": 2,
+  "recording_id": "08e98b59-d448-48d3-ad5c-da2a8c150e6e",
+  "start_utc": "2026-08-04T14:18:02+00:00",
+  "start_local_NY": "2026-08-04T10:18:02-04:00",
+  "channels": [
+   "mc",
+   "mp",
+   "mv",
+   "vb"
+  ],
+  "uart_log": false,
+  "mc": {
+   "samples": 83360,
+   "duration_s": 20.84,
+   "mean_ma": 0.008456909729056598,
+   "min_ma": 0.007710999852861278,
+   "max_ma": 0.009274999683839269
+  }
+ },
+ {
+  "project": "15_min_data",
+  "recording_index": 3,
+  "recording_id": "c1967e99-5435-4d00-a9af-be8a29b3c341",
+  "start_utc": "2026-08-04T14:21:21+00:00",
+  "start_local_NY": "2026-08-04T10:21:21-04:00",
+  "channels": [
+   "mc",
+   "mp",
+   "mv",
+   "vb"
+  ],
+  "uart_log": false,
+  "mc": {
+   "samples": 336990192,
+   "duration_s": 84247.548,
+   "mean_ma": 1.6675487332481904,
+   "min_ma": -2.090604044497013,
+   "max_ma": 158.11799466609955
+  }
+ },
+ {
+  "project": "15_min_data",
+  "recording_index": 4,
+  "recording_id": "5faf2ea2-0cfb-45ad-9acc-f431de3f2ad8",
+  "start_utc": "2026-08-05T13:46:10+00:00",
+  "start_local_NY": "2026-08-05T09:46:10-04:00",
+  "channels": [
+   "mc",
+   "mp",
+   "mv",
+   "vb"
+  ],
+  "uart_log": false,
+  "mc": {
+   "samples": 123548,
+   "duration_s": 30.887,
+   "mean_ma": 0.0006171754299486239,
+   "min_ma": -0.00015199999836568168,
+   "max_ma": 0.001349999934063817
+  }
+ },
+ {
+  "project": "30_min_data",
+  "recording_index": 1,
+  "recording_id": "66c248dd-4347-44a7-a2ac-9ebd771184f2",
+  "start_utc": "2026-08-03T20:54:51+00:00",
+  "start_local_NY": "2026-08-03T16:54:51-04:00",
+  "channels": [
+   "mc",
+   "mp",
+   "mv",
+   "vb"
+  ],
+  "uart_log": false,
+  "mc": {
+   "samples": 122180,
+   "duration_s": 30.545,
+   "mean_ma": 0.0006202188658652671,
+   "min_ma": -0.00011399999522154758,
+   "max_ma": 0.001372999918203277
+  }
+ },
+ {
+  "project": "30_min_data",
+  "recording_index": 2,
+  "recording_id": "6f6a54bf-d7f0-426e-94ed-5dbf1fe1cf0b",
+  "start_utc": "2026-08-03T21:12:08+00:00",
+  "start_local_NY": "2026-08-03T17:12:08-04:00",
+  "channels": [
+   "mc",
+   "mp",
+   "mv",
+   "vb"
+  ],
+  "uart_log": false,
+  "mc": {
+   "samples": 88436,
+   "duration_s": 22.109,
+   "mean_ma": 0.007519007724077068,
+   "min_ma": -0.3229999856557697,
+   "max_ma": 4.468000028282404
+  }
+ },
+ {
+  "project": "30_min_data",
+  "recording_index": 3,
+  "recording_id": "91f5f4d0-322a-4c27-b59a-89a151b43297",
+  "start_utc": "2026-08-03T21:18:58+00:00",
+  "start_local_NY": "2026-08-03T17:18:58-04:00",
+  "channels": [
+   "mc",
+   "mp",
+   "mv",
+   "vb"
+  ],
+  "uart_log": false,
+  "mc": {
+   "samples": 235645388,
+   "duration_s": 58911.347,
+   "mean_ma": 1.6890203762637643,
+   "min_ma": -2.8970418497920036,
+   "max_ma": 128.71000170707703
+  }
+ },
+ {
+  "project": "30_min_data",
+  "recording_index": 4,
+  "recording_id": "8662007e-9bca-4a38-bf63-2e0bc2466955",
+  "start_utc": "2026-08-04T13:52:49+00:00",
+  "start_local_NY": "2026-08-04T09:52:49-04:00",
+  "channels": [
+   "mc",
+   "mp",
+   "mv",
+   "vb"
+  ],
+  "uart_log": false,
+  "mc": {
+   "samples": 130356,
+   "duration_s": 32.589,
+   "mean_ma": 0.000591475781543417,
+   "min_ma": -0.00014299999406830466,
+   "max_ma": 0.0013970000054541742
+  }
+ },
+ {
+  "project": "1_min_15_min_and_30_min_data_with_logs",
+  "recording_index": 1,
+  "recording_id": "224b4cb8-6978-42c2-84ac-3093224c7cd6",
+  "start_utc": "2026-08-05T15:31:56+00:00",
+  "start_local_NY": "2026-08-05T11:31:56-04:00",
+  "channels": [
+   "mc",
+   "mp",
+   "mv",
+   "vb"
+  ],
+  "uart_log": false,
+  "mc": {
+   "samples": 124784,
+   "duration_s": 31.196,
+   "mean_ma": 0.0006532759078863725,
+   "min_ma": -0.00012799999637991277,
+   "max_ma": 0.0013970000054541742
+  }
+ },
+ {
+  "project": "1_min_15_min_and_30_min_data_with_logs",
+  "recording_index": 2,
+  "recording_id": "aef58279-f33f-4538-9526-f5ca72552964",
+  "start_utc": "2026-08-05T15:33:14+00:00",
+  "start_local_NY": "2026-08-05T11:33:14-04:00",
+  "channels": [
+   "mc",
+   "mp",
+   "mv",
+   "rx",
+   "vb"
+  ],
+  "uart_log": true,
+  "mc": {
+   "samples": 82908,
+   "duration_s": 20.727,
+   "mean_ma": 0.007728195633721924,
+   "min_ma": 0.006447000032494543,
+   "max_ma": 0.008758000149100553
+  },
+  "uart": {
+   "db_bytes": 4096,
+   "wal_bytes": 37112,
+   "event_rows": 0,
+   "nonempty_rows": 0
+  }
+ },
+ {
+  "project": "1_min_15_min_and_30_min_data_with_logs",
+  "recording_index": 3,
+  "recording_id": "7cf6aa37-6e47-4fd8-b040-7f186695dbc6",
+  "start_utc": "2026-08-05T16:06:25+00:00",
+  "start_local_NY": "2026-08-05T12:06:25-04:00",
+  "channels": [
+   "mc",
+   "mp",
+   "mv",
+   "rx",
+   "vb"
+  ],
+  "uart_log": true,
+  "mc": {
+   "samples": 11134184,
+   "duration_s": 2783.546,
+   "mean_ma": 2.7393943426902942,
+   "min_ma": -1.6496028983965516,
+   "max_ma": 154.31800484657288
+  },
+  "uart": {
+   "db_bytes": 4096,
+   "wal_bytes": 3918152,
+   "event_rows": 6473,
+   "nonempty_rows": 3523
+  }
+ },
+ {
+  "project": "1_min_15_min_and_30_min_data_with_logs",
+  "recording_index": 4,
+  "recording_id": "db02fba2-f8f1-4536-99cd-eaae2f8a06c5",
+  "start_utc": "2026-08-05T17:01:36+00:00",
+  "start_local_NY": "2026-08-05T13:01:36-04:00",
+  "channels": [
+   "mc",
+   "mp",
+   "mv",
+   "rx",
+   "vb"
+  ],
+  "uart_log": true,
+  "mc": {
+   "samples": 34292280,
+   "duration_s": 8573.07,
+   "mean_ma": 1.8110325760989634,
+   "min_ma": -2.262223046272993,
+   "max_ma": 160.67899763584137
+  },
+  "uart": {
+   "db_bytes": 315392,
+   "wal_bytes": 4120032,
+   "event_rows": 4963,
+   "nonempty_rows": 2900
+  }
+ }
+]
