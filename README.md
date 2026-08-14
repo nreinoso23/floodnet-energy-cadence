@@ -15,9 +15,9 @@ flooding across New York City's five boroughs. Each sensor measures water level 
 and transmits over cellular at a reporting interval that can be changed remotely, from every
 minute (the default) up to every 30 minutes. In winter, shorter days and building shading cut
 solar harvest at shaded sites below what a sensor consumes. Batteries drain over weeks and
-sensors brown out until field crews visit to swap them. Slowing a sensor's reporting is the
-available software lever, but its actual energy value had not been measured on hardware, so
-bench measurements were taken. A FloodNet sensor was instrumented with a Qoitech Otii Arc
+sensors brown out until field crews visit to swap them. To determine how much power slowing
+the reporting rate actually saves, bench measurements were taken on hardware. A FloodNet
+sensor was instrumented with a Qoitech Otii Arc
 power analyzer at the battery's 3.60 V nominal voltage, recording current at 4,000 samples
 per second across 1-, 15-, and 30-minute reporting schedules in 63-, 23-, and 16-hour
 captures. The analyzer's UART logging tied each current spike to a logged firmware event.
