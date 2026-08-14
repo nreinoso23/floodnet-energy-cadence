@@ -1,14 +1,51 @@
 # floodnet-energy-cadence
 
-Bench power measurements of a FloodNet flood sensor showing how the reporting interval controls
-battery life: analysis scripts, poster figures, and data documentation. Poster: "Powering
-FloodNet: Optimizing Sensor Reporting for Battery Life" (Nicholas Reinoso, Charlie Mydlarz,
-Andrea I. Silverman; NYU Tandon UGSRP, 2026).
-
 [![Poster](images/poster_preview.png)](poster/FloodNet_UGSRP_Poster_Final.png)
 
 *Click the poster for the full-resolution PNG; the full-size PDF export (layout check) and the
 PowerPoint source are in [`poster/`](poster/).*
+
+## Abstract
+
+"Powering FloodNet: Optimizing Sensor Reporting for Battery Life" (Nicholas Reinoso, Charlie
+Mydlarz, Andrea I. Silverman; NYU Tandon UGSRP, 2026):
+
+FloodNet operates 450 low-cost, solar-powered ultrasonic sensors that report street-level
+flooding across New York City's five boroughs. Each sensor measures water level every minute
+and transmits over cellular at a reporting interval that can be changed remotely, from every
+minute (the default) up to every 30 minutes. In winter, shorter days and building shading cut
+solar harvest at shaded sites below what a sensor consumes. Batteries drain over weeks and
+sensors brown out until field crews visit to swap them. Slowing a sensor's reporting is the
+available software lever, but its actual energy value had not been measured on hardware, so
+bench measurements were taken. A FloodNet sensor was instrumented with a Qoitech Otii Arc
+power analyzer at the battery's 3.60 V nominal voltage, recording current at 4,000 samples
+per second across 1-, 15-, and 30-minute reporting schedules in 63-, 23-, and 16-hour
+captures. The analyzer's UART logging tied each current spike to a logged firmware event.
+Slowing reporting from 1 to 15 minutes cut average current draw by 41 percent, from 2.82 mA
+to 1.66 mA, stretching a full charge of the sensor's Samsung INR18650-35E lithium-ion cell
+from 49 to 84 days with no solar input. Slowing further to 30 minutes saved nothing
+measurable, because the firmware's 900-second MQTT keepalive wakes the cellular modem halfway
+through each 30-minute interval to keep its server connection alive: the radio wakes four
+times per hour on either schedule. Fifteen-minute reporting therefore delivers the most live
+data at the sensor's lowest measured power. A server-side reporting policy is proposed, not
+yet deployed: sensors above a battery voltage threshold keep 1-minute reporting, sensors
+below it drop to 15 minutes, and a forecast storm or nearby flooding restores 1-minute
+reporting so flood coverage is never traded away.
+
+## Related records
+
+The raw Otii recordings (11.6 GB) are deposited in NYU UltraViolet; the DOI link will be
+added here once the record is published (deposit submitted 2026-08-09).
+<!-- [DATA-DOI-PENDING] -->
+
+The UGSRP 2026 program booklet containing this poster and abstract will be deposited in NYU
+UltraViolet with its own DOI. The link will be added here once it is published.
+<!-- [BOOKLET-DOI-PENDING] -->
+
+## About this repository
+
+Bench power measurements of a FloodNet flood sensor showing how the reporting interval controls
+battery life: analysis scripts, poster figures, and data documentation.
 
 ## Result in one paragraph
 
@@ -151,7 +188,7 @@ document.
 ![Otii live capture](images/Test_Setup_Screenshot.png)
 
 Current was recorded with a Qoitech Otii Arc power analyzer supplying the sensor at the
-battery's 3.60 V nominal voltage and sampling at up to 4,000 samples per second, with the
+battery's 3.60 V nominal voltage and sampling at 4,000 samples per second, with the
 Arc's UART channel capturing the sensor's serial log time-synced to the current trace (the
 screenshot shows a live capture: current, voltage, and VBUS panes above the UART log). The
 1-, 15-, and 30-minute schedules were captured for 63, 23, and 16 hours, respectively. The
