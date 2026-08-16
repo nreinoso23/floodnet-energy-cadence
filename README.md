@@ -30,7 +30,7 @@ times per hour on either schedule. Fifteen-minute reporting therefore delivers t
 data at the sensor's lowest measured power. A server-side reporting policy is proposed, not
 yet deployed: sensors above a battery voltage threshold keep 1-minute reporting, sensors
 below it drop to 15 minutes, and a forecast storm or nearby flooding restores 1-minute
-reporting so flood coverage is never traded away.
+reporting so flood coverage is never compromised.
 
 ## Related records
 
