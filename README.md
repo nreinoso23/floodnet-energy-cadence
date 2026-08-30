@@ -16,7 +16,7 @@ and transmits over cellular at a reporting interval that can be changed remotely
 minute (the default) up to every 30 minutes. In winter, shorter days and building shading cut
 solar harvest at shaded sites below what a sensor consumes. Batteries run down over weeks and
 sensors shut off and stop reporting, and each dead sensor costs staff time: a crew must
-travel to the site and swap the battery before it reports again. To determine how much power
+travel to the site and swap the sensor for a charged one. To determine how much power
 slowing the reporting rate actually saves, bench measurements were taken on hardware. A FloodNet
 sensor was instrumented with a Qoitech Otii Arc
 power analyzer at the battery's 3.60 V nominal voltage, recording current at 4,000 samples
