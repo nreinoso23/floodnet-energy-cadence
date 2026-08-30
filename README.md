@@ -15,13 +15,16 @@ flooding across New York City's five boroughs. Each sensor measures water level 
 and transmits over cellular at a reporting interval that can be changed remotely, from every
 minute (the default) up to every 30 minutes. In winter, shorter days and building shading cut
 solar harvest at shaded sites below what a sensor consumes. Batteries run down over weeks and
-sensors shut off and stop reporting, and each dead sensor costs staff time: a crew must
-travel to the site and swap the sensor for a charged one. To determine how much power
-slowing the reporting rate actually saves, bench measurements were taken on hardware. A FloodNet
-sensor was instrumented with a Qoitech Otii Arc
+sensors shut off and stop reporting, and each dead sensor needs a two-person crew driving
+out with a ladder and a charged replacement, which for the farther sites in this citywide
+network can take the better part of a day. To determine how much power slowing the reporting
+rate actually saves, bench measurements were taken on an actual FloodNet sensor. It was
+instrumented with a Qoitech Otii Arc
 power analyzer at the battery's 3.60 V nominal voltage, recording current at 4,000 samples
-per second across 1-, 15-, and 30-minute reporting schedules in 63-, 23-, and 16-hour
-captures. The analyzer's UART logging tied each current spike to a logged firmware event.
+per second across 1-, 15-, and 30-minute reporting intervals in 63-, 23-, and 16-hour
+captures, long enough to average over dozens of reporting cycles and many hours of network
+variability so the averages are stable. The analyzer's UART logging tied each current spike
+to a logged firmware event.
 Slowing reporting from 1 to 15 minutes cut average current draw by 41 percent, from 2.82 mA
 to 1.66 mA, stretching a full charge of the sensor's Samsung INR18650-35E lithium-ion cell
 from 49 to 84 days with no solar input. Slowing further to 30 minutes saved nothing
