@@ -127,8 +127,10 @@ plt.rcParams.update({
     "font.family": "DejaVu Sans",
     "text.color": INK, "axes.edgecolor": AXIS,
     "axes.labelcolor": INK2, "xtick.color": MUTED, "ytick.color": MUTED,
-    "axes.labelsize": 12, "xtick.labelsize": 11, "ytick.labelsize": 11,
+    "axes.labelsize": 14, "xtick.labelsize": 15, "ytick.labelsize": 15,
 })
+# Label/tick/annotation sizes raised for poster legibility (mentor review,
+# 2026-08-27); the project's original script keeps the smaller sizes.
 
 fig, (ax1, ax2) = plt.subplots(
     2, 1, sharex=True, figsize=(9.58, 2.90),
@@ -158,11 +160,11 @@ i_min = min(range(365), key=lambda i: daylight[i])
 ax1.plot([x[i_max]], [daylight[i_max]], "o", color=C_DAY, markersize=4.5)
 ax1.plot([x[i_min]], [daylight[i_min]], "o", color=C_DAY, markersize=4.5)
 ax1.annotate(f"{daylight[i_max]:.1f} h", (x[i_max], daylight[i_max]),
-             xytext=(-10, -18), textcoords="offset points", ha="right",
-             fontsize=12, fontweight="bold", color=INK)
+             xytext=(-10, -20), textcoords="offset points", ha="right",
+             fontsize=16, fontweight="bold", color=INK)
 ax1.annotate(f"{daylight[i_min]:.1f} h", (x[i_min], daylight[i_min]),
              xytext=(0, 8), textcoords="offset points", ha="center",
-             fontsize=12, fontweight="bold", color=INK)
+             fontsize=16, fontweight="bold", color=INK)
 
 # bottom: daily hairlines from zero + bold centred rolling mean
 ax2.vlines(x, 0, ghi, color=C_IRR, alpha=0.38, linewidth=1.2)
@@ -179,17 +181,17 @@ ax2.plot([rx[j_max]], [ry[j_max]], "o", color=C_IRR, markersize=4.5)
 ax2.plot([rx[j_min]], [ry[j_min]], "o", color=C_IRR, markersize=4.5)
 ax2.annotate(f"{ry[j_max]:.1f}", (rx[j_max], ry[j_max]),
              xytext=(-8, 8), textcoords="offset points", ha="right",
-             fontsize=12, fontweight="bold", color=INK)
+             fontsize=16, fontweight="bold", color=INK)
 ax2.annotate(f"{ry[j_min]:.1f}", (rx[j_min], ry[j_min]),
              xytext=(0, 8), textcoords="offset points", ha="center",
-             fontsize=12, fontweight="bold", color=INK)
+             fontsize=16, fontweight="bold", color=INK)
 
 ax2.xaxis.set_major_locator(mdates.MonthLocator())
 ax2.xaxis.set_major_formatter(mdates.DateFormatter("%b"))
 ax2.set_xlim(x[0], x[-1])
 
 fig.align_ylabels((ax1, ax2))
-fig.subplots_adjust(left=0.088, right=0.985, top=0.97, bottom=0.14)
+fig.subplots_adjust(left=0.125, right=0.985, top=0.97, bottom=0.175)
 fig.savefig(os.path.join(FIGURES, "fig1_solar_season.png"),
             dpi=400, facecolor=SURFACE)
 

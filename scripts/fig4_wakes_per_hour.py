@@ -3,6 +3,7 @@
 # only data and output paths were adapted to this repository layout
 # (reads data/otii, writes ../figures).
 """Poster Figure 4: radio wakes per hour, computed from raw Otii data.
+(The number is unchanged by the 2026-08 poster revision.)
 
 Replaces `figE_wakes_per_hour.py` (project records) under the standing
 rule. The drawing code reproduces figE's count-diagram style exactly; the

@@ -2,7 +2,8 @@
 # the project records, not published here). Logic and methods unchanged;
 # only data and output paths were adapted to this repository layout
 # (reads data/otii (channel path unchanged), writes ../figures/fig3_report_cycles.png).
-"""Poster Figure 3 - one measured report cycle at each schedule.
+"""One measured report cycle at each schedule (poster Figure 3 until the
+2026-08 revision; no longer on the poster, kept as documentation).
 Source: Otii recording 4 (project '1_min_15_min_and_30_min_data_with_logs'),
 main-current channel samples.dat (UUID 7d0169a0-729c-4657-bc25-5a6509cddbfc),
 4000 sps float32 amperes, 10-ms plotting bins.

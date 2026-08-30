@@ -1,7 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite it as below."
+message: "If you use this repository, please cite the poster (see preferred-citation below)."
 title: "Powering FloodNet: Optimizing Sensor Reporting for Battery Life"
 type: software
+date-released: 2026-08-29
 authors:
   - family-names: Reinoso
     given-names: Nicholas
@@ -9,8 +10,28 @@ authors:
     affiliation: "Undergraduate Summer Research Program, NYU Tandon School of Engineering"
   - family-names: Mydlarz
     given-names: Charlie
-    affiliation: "Center for Urban Science and Progress, NYU Tandon"
+    orcid: "https://orcid.org/0000-0001-7061-0638"
+    affiliation: "Center for Urban Science and Progress, NYU Tandon School of Engineering, 370 Jay Street, Brooklyn, NY 11201, USA"
   - family-names: Silverman
     given-names: Andrea I.
-    affiliation: "Center for Urban Science and Progress, NYU Tandon; Department of Civil and Urban Engineering, NYU Tandon"
-date-released: 2026-08-12
+    orcid: "https://orcid.org/0000-0001-8199-5860"
+    affiliation: "Department of Civil, Urban, and Environmental Engineering, NYU Tandon School of Engineering, 6 Metrotech Center, Brooklyn NY 11201, USA"
+preferred-citation:
+  type: generic
+  title: "Powering FloodNet: Optimizing Sensor Reporting for Battery Life"
+  year: 2026
+  medium: "Research poster"
+  notes: "Poster, Undergraduate Summer Research Program (UGSRP), NYU Tandon School of Engineering, 2026. The CFF schema has no poster reference type; generic is used to represent it."
+  authors:
+    - family-names: Reinoso
+      given-names: Nicholas
+      orcid: "https://orcid.org/0009-0009-0689-8011"
+      affiliation: "Undergraduate Summer Research Program, NYU Tandon School of Engineering"
+    - family-names: Mydlarz
+      given-names: Charlie
+      orcid: "https://orcid.org/0000-0001-7061-0638"
+      affiliation: "Center for Urban Science and Progress, NYU Tandon School of Engineering, 370 Jay Street, Brooklyn, NY 11201, USA"
+    - family-names: Silverman
+      given-names: Andrea I.
+      orcid: "https://orcid.org/0000-0001-8199-5860"
+      affiliation: "Department of Civil, Urban, and Environmental Engineering, NYU Tandon School of Engineering, 6 Metrotech Center, Brooklyn NY 11201, USA"

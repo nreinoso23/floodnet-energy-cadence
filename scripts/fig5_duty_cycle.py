@@ -2,7 +2,8 @@
 # the project records, not published here). Logic and methods unchanged;
 # only data and output paths were adapted to this repository layout
 # (reads data/otii, writes ../figures).
-"""Poster Figure 5: radio duty-cycle square waves, computed from raw Otii data.
+"""Poster Figure 3: radio duty-cycle square waves, computed from raw Otii data.
+(Numbered Figure 5 on the original poster layout; the file name keeps fig5.)
 
 Replaces `figB_duty_cycle_no_percent.py` (project records) under the
 standing rule. The drawing code reproduces its square-wave style exactly; the
