@@ -2,8 +2,8 @@
 
 [![Poster](images/poster_preview.png)](poster/FloodNet_UGSRP_Poster_Final.png)
 
-*Click the poster for the full-resolution PNG; the full-size PDF export (layout check) and the
-PowerPoint source are in [`poster/`](poster/).*
+*Click the poster for the full-resolution PNG; the PDF and the PowerPoint source are in
+[`poster/`](poster/).*
 
 ## Abstract
 
@@ -83,7 +83,7 @@ floodnet-energy-cadence/
   LICENSE                    MIT (see Licensing below for scope)
   CITATION.cff               citation metadata
   requirements.txt           pinned Python dependencies
-  poster/                    the poster: .pptx source, layout-check PDF, full-slide PNG
+  poster/                    the poster: .pptx source, PDF, full-slide PNG
   abstract/                  the standalone extended abstract (Markdown)
   data/
     otii/                    raw Otii Arc recordings; NOT stored in the repo (11.6 GB,
