@@ -7,9 +7,7 @@
 > published here; "the Codex report" and "the Claude report" (together "both reports") name
 > the two independent AI-assisted verification reports in those records. The four renamed
 > projects themselves are in the raw-data record: the raw
-> Otii recordings (11.6 GB) are deposited in NYU UltraViolet; the DOI link will be added here
-> once the record is published (deposit submitted 2026-08-09).
-> <!-- [DATA-DOI-PENDING] -->
+> Otii recordings (11.6 GB) are too large to host here; email n.reinoso@nyu.edu for a copy.
 
 > **Verification, final (2026-08-09): 14 of 14 correct.** The one variance from the first pass
 > (a leading tab on the combined project's first calibration name) was fixed and re-verified:

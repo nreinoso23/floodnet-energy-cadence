@@ -2,14 +2,11 @@
 
 The four Otii Arc projects behind Figures 2 through 5 total about 11.6 GB, and the largest
 single file (the 62.8-hour capture's current channel) is about 3.6 GB, far over GitHub's
-100 MB per-file limit, so the raw data lives outside this repository. The raw Otii recordings
-(11.6 GB) are deposited in NYU UltraViolet; the DOI link will be added here once the record
-is published (deposit submitted 2026-08-09).
-<!-- [DATA-DOI-PENDING] -->
+100 MB per-file limit, so the raw data lives outside this repository. Email n.reinoso@nyu.edu for a copy.
 
-The UltraViolet record contains one zip per Otii project (named after the project folders
-below), a `SHA256SUMS.txt` covering every zip, and a zip of this repository as deposited.
-To reproduce the figures: download the four project zips, verify them against
+The data package contains one zip per Otii project (named after the project folders
+below), a `SHA256SUMS.txt` covering every zip, and a zip of this repository.
+To reproduce the figures: take the four project zips, verify them against
 `SHA256SUMS.txt`, and unzip them into this directory so the tree reads:
 
 ```

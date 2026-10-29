@@ -40,13 +40,10 @@ reporting so flood coverage is never compromised.
 
 ## Related records
 
-The raw Otii recordings (11.6 GB) are deposited in NYU UltraViolet; the DOI link will be
-added here once the record is published (deposit submitted 2026-08-09).
-<!-- [DATA-DOI-PENDING] -->
+The raw Otii recordings (11.6 GB) are too large to host here; email n.reinoso@nyu.edu for a copy.
 
-The UGSRP 2026 program booklet containing this poster and abstract will be deposited in NYU
-UltraViolet with its own DOI. The link will be added here once it is published.
-<!-- [BOOKLET-DOI-PENDING] -->
+The abstract is published in the UGSRP 2026 abstract booklet on NYU UltraViolet, page 28 of
+`2026_UGSRP_Booklet.pdf`: https://doi.org/10.58153/vmb2m-7zt05
 
 ## About this repository
 
@@ -87,7 +84,7 @@ floodnet-energy-cadence/
   abstract/                  the standalone extended abstract (Markdown)
   data/
     otii/                    raw Otii Arc recordings; NOT stored in the repo (11.6 GB,
-                             largest file 3.6 GB); deposited in NYU UltraViolet. See
+                             largest file 3.6 GB); email n.reinoso@nyu.edu. See
                              data/otii/README.md
     openmeteo/               the archived Open-Meteo API pull (JSON + manifest), the
                              derived daily CSV, and its provenance record
@@ -146,9 +143,7 @@ plus 30 keepalives, exactly one keepalive per interval, in the 30-minute capture
 
 ### Otii Arc recordings (raw measurement data)
 
-The raw Otii recordings (11.6 GB) are deposited in NYU UltraViolet; the DOI link will be
-added here once the record is published (deposit submitted 2026-08-09).
-<!-- [DATA-DOI-PENDING] -->
+The raw Otii recordings (11.6 GB) are too large to host here; email n.reinoso@nyu.edu for a copy.
 
 Fourteen recordings across four Otii projects: per-recording start times, durations, sample
 counts, current statistics, UART-log contents, classifications (calibration vs live run), and

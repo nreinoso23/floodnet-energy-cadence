@@ -20,11 +20,9 @@ energy use (Codex `poster-package.md`, claims table row 3; project records).
 
 ## 2. The raw sources: two Otii Arc recordings of FloodNet node FS5-01177
 
-The recordings themselves live in the raw-data record, not in this repository: the raw Otii
-recordings (11.6 GB) are deposited in NYU UltraViolet; the DOI link will be added here once
-the record is published (deposit submitted 2026-08-09). See
+The recordings themselves are not in this repository: the raw Otii recordings (11.6 GB) are
+too large to host here; email n.reinoso@nyu.edu for a copy. See
 [`../data/otii/README.md`](../data/otii/README.md) for the layout.
-<!-- [DATA-DOI-PENDING] -->
 
 | Recording (name as now labeled in the Otii software) | Project | Start | Duration |
 |---|---|---|---|
